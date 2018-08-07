@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#dbfadb"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Clear!"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/CBlogImg"
+                    android:layout_width="209dp"
+                    android:layout_height="209dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/potoselet" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Blogtodo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="5"
+                android:background="#66cc99"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="10"
+                    android:background="#dbfadb"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/CBlogDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="완료일"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#5D5D5D" />
+
+                    <TextView
+                        android:id="@+id/CBlogDatatext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="2014-5-26"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#66cc99" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="10"
+                    android:background="#D2FAD2"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/CBlogSTAR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="중요도"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#5D5D5D" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar1"
+                        style="@style/CustomBigRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:isIndicator="true"
+                        android:stepSize="0.8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="30"
+                    android:background="#D2FAD2"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/CBlogMemo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="메모"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#5D5D5D" />
+
+                    <TextView
+                        android:id="@+id/CBlogMemotext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="어떤메모를하면좋을까"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#66cc99" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="5"
+                android:gravity="bottom|center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/okbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="#dbfadb"
+                    android:padding="15dp"
+                    android:text="공유" />
+
+                <Button
+                    android:id="@+id/resetbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="#dbfadb"
+                    android:padding="15dp"
+                    android:text="취소" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

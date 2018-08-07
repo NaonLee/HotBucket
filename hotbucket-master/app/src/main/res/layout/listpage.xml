@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFF0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#dbfadb"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="추천 버킷리스트"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" 1 애인 만들기\n 2 혼자 배낭메고 해외로 나가기\n 3 찰랑 찰랑한 금발로 변신\n 4 제일 좋은 DSLR로 사진 찍기\n 5 가장 높은 곳에서 번지점프\n 6 제주도 뚜벅이 여행\n 7 날 좋은 날 캠핑하기\n 8 중국어 배우기\n 9 디즈니랜드 가기\n 10 뭐든 좋으니 1등 해보기\n 11 나만의 멘토 만나기\n 12 패러글라이딩 하기\n 13 독립하기\n 14 나만의 캐릭터 만들기\n 15 파워 블로거 되보기\n 16 클럽 빌려서 파티해보기\n 17 휴학하기\n 18 계획없는 여행 해보기\n 19 마라도에서 짜장면 먹기\n 20 좋아하는 사람한테 고백하기\n 21 부모님한테 효도하기\n 22 나만의 책 만들기\n 23 노트북 분해해보기\n 24 하루 종일 잠자기\n 25 나무늘보처럼 있어보기\n 26 도시락 싸서 한강으로 소풍가기\n 27 월드 디제이 페스티벌에서 놀기\n 28 하루 종일 영화보기\n 29 홍대에서 밤새 놀기\n 30 많은 사람 앞에서 말해보기\n 31 비오는 날 파전에 막걸리 한잔 걸치기\n 32 1억 모으기\n 33 아쿠아리움가서 펭귄이랑 친구 먹기\n 34 해외에서 살아보기\n 35 동대문 야시장에 놀러가기\n 36 독일어 배우기\n 37 50이 되기 전에 은퇴하기\n 38 템플스테이 경험하기\n 39 홍대에서 버스킹하기\n 40 홈페이지 제작하기\n 41 나만의 가방 만들기\n 42 스카이 다이빙 하기\n 43 영화 100편 보기\n 44 책 1000편 읽기\n 45 밤새 친구랑 수다 떨기\n 46 포장마차에서 술마시기\n 47 단골 카페 만들기\n 48 투톤으로 염색하기\n 49 짧게 머리 잘라보기\n 50 내가 좋아하는 것 찾기"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+    </ScrollView>
+
+</LinearLayout>

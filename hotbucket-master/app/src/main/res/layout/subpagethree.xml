@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFF0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#dbfadb"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="SETTING"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnFir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="15"
+            android:background="#7098FB98"
+            android:text="공지사항"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="15"
+            android:background="#70000080"
+            android:text="FACEBOOK Login"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="15"
+            android:background="#70000080"
+            android:text="FACEBOOK Logout"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="15"
+            android:background="#7098FB98"
+            android:text="USER GUIDE"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+        
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="15"
+            android:background="#7098FB98"
+            android:text="추천 버킷리스트"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnDev"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="15"
+            android:background="#70FF4040"
+            android:text="DEVELOPER INFORMATION"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

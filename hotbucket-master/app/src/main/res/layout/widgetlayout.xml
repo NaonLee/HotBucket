@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnWi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#dbfadb"
+        android:text="핫버킷 작성"
+        android:textColor="#5D5D5D" />
+
+    <Button
+        android:id="@+id/btnWi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#66cc99"
+        android:text="리스트 보기" />
+
+    <Button
+        android:id="@+id/btnWi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#dbfadb"
+        android:text="앨범 보기"
+        android:textColor="#5D5D5D" />
+
+</LinearLayout>

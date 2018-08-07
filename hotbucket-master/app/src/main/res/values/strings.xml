@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Hot Bucket</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="array">정렬순서</string>
+
+    <string-array name="array_array">
+        <item>날짜</item>
+        <item>별점</item>
+        <item>완료</item>
+    </string-array>
+
+    <string name="urlsample">file:///mnt/sdcard/Android/data/com.hotsource.hotbucket/temp/20140526_043029tempimage.png</string>
+
+</resources>
