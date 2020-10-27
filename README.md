@@ -46,7 +46,7 @@ Android application for saving bucket list. create by HotSource.
   - 데이터베이스
   - 디자인
 
--  윤설아
+- 윤설아
   - 스플래쉬
   - ‘더보기’ 탭 (세 번째 탭)
   - SNS 공유
