@@ -51,7 +51,7 @@ Android application for saving bucket list. create by HotSource. JAVA, Android S
 
 ## 리스트 뷰
 
-- 순서도 (Flow chart)
+- 순서도 (Flow chart)   
 ![FlowChart](https://user-images.githubusercontent.com/42129707/114406125-3dff7c80-9be2-11eb-990b-c0959d5d8ca8.jpg)
 
 - 클래스 설명
