@@ -1,5 +1,5 @@
 # HotBucket
-Android application for saving bucket list. create by HotSource.
+Android application for saving bucket list. create by HotSource. JAVA, Android Studio, SQLite
 
 버킷리스트를 저장, 공유할 수 있는 어플리케이션 개발
 
@@ -47,3 +47,17 @@ Android application for saving bucket list. create by HotSource.
   - ‘더보기’ 탭 (세 번째 탭)
   - SNS 공유
   - 위젯
+
+
+## 리스트 뷰
+
+- 순서도 (Flow chart)
+![FlowChart](https://user-images.githubusercontent.com/42129707/114406125-3dff7c80-9be2-11eb-990b-c0959d5d8ca8.jpg)
+
+- 클래스 설명
+  - BucketListAdapter: DB에 아이템을 받아와 관리, 뷰 생성 *(완료 여부에 따라 우측 버튼이 완료/공유로 바뀜)*
+  - BucketItem: 버킷리스트 항목 설정 *(제목, 중요도, 완료여부, 완료날짜, 사진)*
+  - SubPageOneActivity: 첫 번째 탭-리스트 뷰 *(정렬, 추가, 삭제 기능 포함)*
+  - Input_Activity: 항목 추가 화면 *(DB에 추가)*
+  - Clear_Activity: 완료 시 정보 입력 창
+  - ClearBlogActivity: 완료 된 항목을 짧게 클릭 시 보여지는 정보 창 *(공유 버튼 클릭 시 Facebook 로그인 페이지로 이동)*
